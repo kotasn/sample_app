@@ -9,6 +9,9 @@ end
 
 gem 'rails',        '5.1.4'
 
+# has_secure_password を使うためのgem ↓
+gem 'bcrypt',         '3.1.12'
+
 # Bootstrap
 gem 'bootstrap-sass', '3.3.7'
 gem 'puma',         '3.9.1'
